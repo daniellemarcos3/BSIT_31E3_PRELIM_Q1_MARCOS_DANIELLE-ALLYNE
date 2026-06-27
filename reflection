@@ -1,0 +1,15 @@
+1. Why use inheritance?
+It lets you reuse and share common attributes and behaviors across related classes, avoiding duplicate code.
+
+2. Why use interfaces?
+They define CAN-DO actions or capabilities without specifying how they are implemented.
+
+3. Can Helicopter inherit from both Vehicle and Airplane?
+No. In languages like C#, only single class inheritance is allowed — a class can have only one direct base class.
+
+4. Why can Helicopter implement both IFlyable and IDriveable?
+Unlike classes, there is no limit to how many interfaces a class can implement.
+
+5. How to design Submarine?
+Inherit from Vehicle: This gives it all common properties and behaviors of a vehicle (e.g., speed, weight, move()) and follows the IS‑A rule: a Submarine is a Vehicle.
+ 
